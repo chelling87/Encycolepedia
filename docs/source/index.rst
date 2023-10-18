@@ -22,5 +22,6 @@ Contents
 
 .. toctree::
    
+   test.md
    usage
    api
