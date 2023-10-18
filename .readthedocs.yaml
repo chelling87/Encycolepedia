@@ -12,10 +12,3 @@ sphinx:
 python:
    install:
    - requirements: requirements.txt
-
-
-theme: 
-  name: readthedocs
-
-nav:
-  Test: test.md
