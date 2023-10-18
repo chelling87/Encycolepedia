@@ -13,7 +13,12 @@ python:
    install:
    - requirements: requirements.txt
 
-site_name: Chelling
+mkdocs:
+  configuration: mkdocs.yml
 
-nav:
-  Test: test.md
+    #site_name: Encycolepedia
+    #theme: 
+    #name: material
+    #
+    #nav:
+    #  Test: test.md
