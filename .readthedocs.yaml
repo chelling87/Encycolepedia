@@ -12,9 +12,10 @@ build:
     python: "3.10"
 
 mkdocs:
-   configuration: mkdocs.yml
+  configuration: mkdocs.yml
+  fail_on_warning: false 
 
 # Specify the requirements file
 python:
-   install:
-   - requirements: docs/requirements.txt
+  install:
+    - requirements: docs/requirements.txt
