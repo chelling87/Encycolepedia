@@ -6,7 +6,7 @@ Usage
 Installation
 ------------
 
-To use Lumache, first install it using pip:
+To use Don Quixote Lumache, first install it using pip:
 
 .. code-block:: console
 
