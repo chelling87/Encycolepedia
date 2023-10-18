@@ -12,7 +12,7 @@ build:
     python: "3.10"
 
 mkdocs:
-   configuration: null
+   configuration: mkdocs.yml
 
 # Specify the requirements file
 python:
