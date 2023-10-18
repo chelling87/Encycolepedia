@@ -1,10 +1,13 @@
 # Configuration file for the Sphinx documentation builder.
+import sys
+import os
+sys.path.insert(0, os.path.abspath('../')) # path relative to conf.py
 
 # -- Project information
 
-project = 'Lumache'
-copyright = '2021, Graziella'
-author = 'Graziella'
+project = 'Encyclopedia'
+copyright = '2023, Helling'
+author = 'Cole Helling'
 
 release = '0.1'
 version = '0.1.0'
