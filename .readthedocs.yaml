@@ -13,12 +13,9 @@ python:
    install:
    - requirements: requirements.txt
 
-mkdocs:
-  configuration: mkdocs.yml
 
-    #site_name: Encycolepedia
-    #theme: 
-    #name: material
-    #
-    #nav:
-    #  Test: test.md
+theme: 
+  name: material
+
+nav:
+  Test: test.md
