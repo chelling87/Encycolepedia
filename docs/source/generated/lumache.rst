@@ -1,7 +1,7 @@
 ﻿lumache
 =======
 
-.. automodule:: lumache
+#.. automodule:: lumache
 
    
    
