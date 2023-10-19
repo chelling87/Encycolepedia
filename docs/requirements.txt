@@ -6,7 +6,7 @@ sphinx-autopackagesummary
 sphinx-book-theme
 jupyter-sphinx
 jupyter_sphinx
-jupyter-nbconvert
+nbconvert
 jupyterlab-widgets
 jupyterlab
 nbsphinx
