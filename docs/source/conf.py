@@ -5,7 +5,7 @@ sys.path.insert(0, os.path.abspath('../')) # path relative to conf.py
 
 # -- Project information
 
-project = 'Encyclopedia'
+project = 'Encycolepedia'
 copyright = '2023, Helling'
 author = 'Cole Helling'
 
@@ -31,7 +31,9 @@ extensions = [
     'myst_parser',
     'sphinx_exec_code',
     'sphinx.ext.autosummary', 
-    'sphinx_autopackagesummary'
+    'sphinx_autopackagesummary',
+    'nbsphinx',
+    'jupyter_sphinx'
 ]
 
 autosummary_generate = True

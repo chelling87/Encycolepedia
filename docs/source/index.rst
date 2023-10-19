@@ -18,7 +18,9 @@ an issue. It's possible that something has changed.
   wrong, please let me know. Better yet, make a merge request.
 
 
-
+.. exec_code::
+  :filename: test_code.py
+  :hide_code:
 
 .. exec_code::
 
@@ -41,3 +43,28 @@ Code
   generated/test_script
   usage
   api
+
+
+Experimental
+------------
+
+.. jupyter-execute::
+  :linenos:
+  
+  import ipywidgets as w
+  from IPython.display import display
+  
+  a = w.Dropdown(
+      options=['LS', 'SS', 'R0'],
+      value='LS',
+      description='Number:',
+      disabled=False,
+  )
+
+  display(a)
+
+.. toctree::
+   :maxdepth: 2
+   :caption: Contents:
+
+   example

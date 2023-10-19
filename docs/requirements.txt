@@ -4,3 +4,5 @@ myst-parser
 sphinx-exec-code
 sphinx-autopackagesummary
 sphinx-book-theme
+nbsphinx
+pandoc
