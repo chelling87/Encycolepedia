@@ -1,6 +1,0 @@
-site_name: Encycolepedia
-theme:
-  name: readthedocs
-
-nav:
-  - Home: test.md
