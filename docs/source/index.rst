@@ -24,7 +24,6 @@ Contents
 
 .. toctree::
   :caption: Tutorials:
-  :titlesonly:
 
   Module Testing Introduction <ModuleTesting/GettingStarted>
   Software Installation <ModuleTesting/software_installation>
