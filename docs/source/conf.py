@@ -33,7 +33,9 @@ extensions = [
     'sphinx.ext.autosummary', 
     'sphinx_autopackagesummary',
     'nbsphinx',
-    'jupyter_sphinx'
+    'jupyter_sphinx',
+    'sphinx_copybutton',
+    "sphinx_thebe"
 ]
 
 autosummary_generate = True
@@ -46,6 +48,7 @@ html_theme_options = {
     "home_page_in_toc": True,
     "repository_url": "https://github.com/chelling87/Encycolepedia",
     "use_repository_button": True,
+    "launch_buttons" : {"notebook_interface": "jupyterlab"}
 }
 
 exec_code_working_dir = '..'

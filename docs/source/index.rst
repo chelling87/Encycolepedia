@@ -9,7 +9,7 @@ those documents here to avoid having the user flip back and forth, however,
 please consult the links in the event of an issue. It's possible that something
 has changed.
    
-.. note::
+.. warning::
 
   This project is under active development. None of this is to be considered
   official, and I wouldn't hold my breath on it all being correct. I make
@@ -26,7 +26,9 @@ Contents
   :caption: Tutorials:
   :titlesonly:
 
-  Module Testing <ModuleTesting/GettingStarted>
+  Module Testing Introduction <ModuleTesting/GettingStarted>
+  Software Installation <ModuleTesting/software_installation>
+  Configuration <ModuleTesting/Configuration>
 
 -------
 Scripts

@@ -11,3 +11,5 @@ jupyterlab-widgets
 jupyterlab
 nbsphinx
 pandoc
+sphinx-copybutton
+sphinx_thebe
