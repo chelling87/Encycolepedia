@@ -3,3 +3,6 @@ requires = ["flit_core >=3.2,<4"]
 build-backend = "flit_core.buildapi"
 
 [project]
+name = "test_script"
+authors = [{name = "Helling", email = "cole.michael.helling@cern.ch"}]
+dynamic = ["version", "description"]
