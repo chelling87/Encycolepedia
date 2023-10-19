@@ -1,5 +1,5 @@
 """
-test_script - Python library for cooks and food lovers.
+test_script - Python library for modules.
 """
 
 __version__ = "0.1.0"
@@ -10,14 +10,14 @@ class InvalidKindError(Exception):
     pass
 
 
-def get_random_ingredients(kind=None):
+def get_random_modules(kind=None):
     """
-    Return a list of random ingredients as strings.
+    Return a list of random modules as strings.
 
-    :param kind: Optional "kind" of ingredients.
+    :param kind: Optional "kind" of module.
     :type kind: list[str] or None
     :raise test_script.InvalidKindError: If the kind is invalid.
-    :return: The ingredients list.
+    :return: The modules list.
     :rtype: list[str]
     """
-    return ["shells", "gorgonzola", "parsley"]
+    return ["R0", "SS", "R3"]

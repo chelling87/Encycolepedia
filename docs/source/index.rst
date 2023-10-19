@@ -1,5 +1,6 @@
+=============================
 Welcome to the Encycolepedia!
-====================================
+=============================
 
 Hi, I'm Cole Helling. I will elucidate the various topics for the ITk Strips to
 the best of my abilities. In the tutorials, I try to always point to the
@@ -17,20 +18,29 @@ has changed.
   wrong, please let me know. Better yet, make a merge request.
 
 
+--------
 Contents
 --------
 
 .. toctree::
+  :caption: Tutorials:
+  :titlesonly:
 
-  test
-  thing1/thing2
+  Module Testing <ModuleTesting/GettingStarted>
 
-Code
-----
+-------
+Scripts
+-------
 
 .. toctree::
+  :maxdepth: 2
+  :caption: Scripts
 
-  generated/test_script
-  usage
-  api
+  test_script.py <generated/test_script>
+  Usage <usage>
+  API   <api>
 
+.. toctree::
+  :caption: Extras  
+  
+  Code Test <test>

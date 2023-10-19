@@ -12,22 +12,20 @@ To use test_script, first install it using pip:
 
    (.venv) $ pip install test_script
 
-Creating recipes
+Creating modules
 ----------------
 
-To retrieve a list of random ingredients,
-you can use the ``test_script.get_random_ingredients()`` function:
+To retrieve a list of random modules,
+you can use the ``test_script.get_random_modules()`` function:
 
-.. autofunction:: test_script.get_random_ingredients
+.. autofunction:: test_script.get_random_modules
 
-The ``kind`` parameter should be either ``"meat"``, ``"fish"``,
-or ``"veggies"``. Otherwise, :py:func:`test_script.get_random_ingredients`
-will raise an exception.
+The ``kind`` parameter should be a module type (i.e. ``"R0"`` or ``"SS"``).
 
 .. autoexception:: test_script.InvalidKindError
 
 For example:
 
 >>> import test_script
->>> test_script.get_random_ingredients()
-['shells', 'gorgonzola', 'parsley']
+>>> test_script.get_random_modules()
+['R0', 'SS', 'R3']
