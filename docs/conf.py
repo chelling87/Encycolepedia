@@ -2,7 +2,6 @@
 import sys
 import os
 sys.path.insert(0, os.path.abspath('../')) # path relative to conf.py
-sys.path.append(os.path.abspath('../')) # path relative to conf.py
 
 # -- Project information
 
