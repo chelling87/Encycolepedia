@@ -5,5 +5,9 @@ sphinx-exec-code
 sphinx-autopackagesummary
 sphinx-book-theme
 jupyter-sphinx
+jupyter_sphinx
+jupyter-nbconvert
+jupyterlab-widgets
+jupyterlab
 nbsphinx
 pandoc
