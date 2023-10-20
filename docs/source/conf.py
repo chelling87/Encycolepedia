@@ -10,7 +10,7 @@ copyright = '2023, Helling'
 author = 'Cole Helling'
 
 release = '0.1'
-version = '0.1.1'
+version = '0.1.2'
 
 # -- General configuration
 
@@ -35,8 +35,14 @@ extensions = [
     'nbsphinx',
     'jupyter_sphinx',
     'sphinx_copybutton',
-    "sphinx_thebe"
+    'sphinx_thebe',
+    'sphinx_design',
+    'sphinx_tabs.tabs'
 ]
+
+sphinx_tabs_disable_tab_closing = True
+
+myst_enable_extensions = ["colon_fence"]
 
 autosummary_generate = True
 

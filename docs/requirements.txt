@@ -13,3 +13,5 @@ nbsphinx
 pandoc
 sphinx-copybutton
 sphinx_thebe
+sphinx-design
+sphinx-tabs
