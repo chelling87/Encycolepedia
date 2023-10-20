@@ -7,9 +7,71 @@ is, if not a logic, a **reason** why the streams need to be what they are.
 
 ## Hybrid Burn-In
 
-For the Hybrid Burn-in testing, our stream mappings are tied to how the panels are wired.
+For the Hybrid Burn-in testing, our stream mappings are tied to how the panels
+are wired.  To understand the stream mapping, it's best to look at the panel
+design to see where the communication line run. The drawings below are from
+[EDMS](https://edms.cern.ch/ui/#!master/navigator/project?P:1108698003:100145441:subDocs).
+Click on the tab above the images to see the hybrid test panel for a particular
+hybrid (and module) type.
 
-**Some stuff here**
+```{eval-rst}
+
+.. tabs::
+
+  .. tab:: R0
+
+    .. image:: PanelPics/R0_panel.png
+      :height: 600
+  .. tab:: R1
+
+    .. image:: PanelPics/R1_panel.png
+      :height: 600
+
+  .. tab:: R2
+
+    .. image:: PanelPics/R2_panel.png
+      :height: 600
+   
+  .. tab:: R3
+
+    .. image:: PanelPics/R3_panel.png
+      :height: 600
+  
+  .. tab:: R4
+
+    .. image:: PanelPics/R4_panel.png
+      :height: 600
+
+  .. tab:: R5
+
+    .. image:: PanelPics/R5_panel.png
+      :height: 600
+  
+```
+
+
+```{eval-rst}
+
+.. warning::
+  I'm missing the Barrel panel at the moment. Ashely didn't make the nice
+  images that Kambiz made, so I'll have to generate one like I did for the barrel
+  test frame.
+```
+
+*The images will likely be updated with some highlighted portions, and perhaps
+I will include zoomed-in and annotated portions below the full image to make
+things clear.  Then I will explain here about which stream connects to which
+data line and that's how we ended up with some reversals in numbers. It's not
+about what makes sense from a programming point of view, it's about where the
+physical lines go such that they have as few crossings as possible (usually)
+within the constraints of where things need to end up.*
+
+```{eval-rst}
+
+.. note::
+  This might be a good place to make a table.
+
+```
 
 ## Modules
 
