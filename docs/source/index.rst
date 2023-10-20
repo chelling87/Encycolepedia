@@ -17,17 +17,23 @@ has changed.
   errors on purpose, but I will not tell you which. If you find something
   wrong, please let me know. Better yet, make a merge request.
 
-
 --------
 Contents
 --------
 
 .. toctree::
-  :caption: Tutorials:
+  :caption: Tutorials
 
-  Module Testing Introduction <ModuleTesting/GettingStarted>
+  Module Testing Introduction <ModuleTesting/getting_started>
+  Hardware Setup <ModuleTesting/hardware_setup>
   Software Installation <ModuleTesting/software_installation>
-  Configuration <ModuleTesting/Configuration>
+  Configuration Files <ModuleTesting/configuration>
+  Starting ITSDAQ <ModuleTesting/starting_itsdaq>
+
+.. toctree::
+  :caption: Explanations
+
+  Stream Mapping <Explanations/stream_mappings>
 
 -------
 Scripts
