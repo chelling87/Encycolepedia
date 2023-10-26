@@ -37,7 +37,10 @@ extensions = [
     'sphinx_copybutton',
     'sphinx_thebe',
     'sphinx_design',
-    'sphinx_tabs.tabs'
+    'sphinx_tabs.tabs',
+    'IPython.sphinxext.ipython_console_highlighting',
+    'IPython.sphinxext.ipython_directive',
+    'sphinx_toolbox.code',
 ]
 
 sphinx_tabs_disable_tab_closing = True
@@ -56,6 +59,7 @@ html_theme_options = {
     "use_repository_button": True,
     "launch_buttons" : {"notebook_interface": "jupyterlab"}
 }
+html_static_path = ['_WIP']
 
 exec_code_working_dir = '..'
 exec_code_source_folders = ['.']

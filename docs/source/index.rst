@@ -22,13 +22,18 @@ Contents
 --------
 
 .. toctree::
-  :caption: Tutorials
+  :caption: Module Testing Tutorials
 
   Module Testing Introduction <ModuleTesting/getting_started>
   Hardware Setup <ModuleTesting/hardware_setup>
   Software Installation <ModuleTesting/software_installation>
   Configuration Files <ModuleTesting/configuration>
   Starting ITSDAQ <ModuleTesting/starting_itsdaq>
+
+.. toctree::
+   :caption: Hybrid Burn-in Tutorials
+
+   Hybrid Burn-in Testing <HybridTesting/hybrid_burnin>  
 
 .. toctree::
   :caption: Explanations
@@ -44,10 +49,10 @@ Scripts
   :caption: Scripts
 
   test_script.py <generated/test_script>
-  Usage <usage>
-  API   <api>
 
 .. toctree::
   :caption: Extras  
   
   Code Test <test>
+  st_line_maker
+  notebooks
