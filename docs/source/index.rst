@@ -55,4 +55,3 @@ Scripts
   
   Code Test <test>
   st_line_maker
-  notebooks

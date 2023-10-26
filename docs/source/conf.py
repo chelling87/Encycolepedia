@@ -40,7 +40,6 @@ extensions = [
     'sphinx_tabs.tabs',
     'IPython.sphinxext.ipython_console_highlighting',
     'IPython.sphinxext.ipython_directive',
-    'sphinx_toolbox.code',
 ]
 
 sphinx_tabs_disable_tab_closing = True
